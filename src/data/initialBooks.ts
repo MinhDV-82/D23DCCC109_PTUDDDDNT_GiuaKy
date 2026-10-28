@@ -1,6 +1,5 @@
 import { Book } from '../types';
 
-
 export const initialBooks: Book[] = [
   {
     id: '1',
@@ -9,7 +8,7 @@ export const initialBooks: Book[] = [
     category: 'Giáo trình',
     year: 2023,
     quantity: 10,
-    borrowed: 3
+    borrowed: 3,
   },
   {
     id: '2',
@@ -46,5 +45,50 @@ export const initialBooks: Book[] = [
     year: 2021,
     quantity: 4,
     borrowed: 1,
+  },
+  {
+    id: '6',
+    title: 'Kính Vạn Hoa',
+    author: 'Nguyễn Nhật Ánh',
+    category: 'Thiếu nhi',
+    year: 2019,
+    quantity: 12,
+    borrowed: 4,
+  },
+  {
+    id: '7',
+    title: 'Mạng Máy Tính và Truyền Thông',
+    author: 'Phạm Văn C',
+    category: 'Giáo trình',
+    year: 2022,
+    quantity: 7,
+    borrowed: 7,
+  },
+  {
+    id: '8',
+    title: 'Lược Sử Thời Gian',
+    author: 'Stephen Hawking',
+    category: 'Khoa học',
+    year: 2017,
+    quantity: 9,
+    borrowed: 3,
+  },
+  {
+    id: '9',
+    title: 'Mắt Biếc',
+    author: 'Nguyễn Nhật Ánh',
+    category: 'Tiểu thuyết',
+    year: 2019,
+    quantity: 5,
+    borrowed: 0,
+  },
+  {
+    id: '10',
+    title: 'Trí Tuệ Nhân Tạo Hiện Đại',
+    author: 'Stuart Russell',
+    category: 'Khoa học',
+    year: 2024,
+    quantity: 6,
+    borrowed: 2,
   },
 ];
